@@ -21,7 +21,7 @@
 - This process is repeated until all 250 movies are scraped and the final details are zipped and stored into a list
 
 ## 5. Download Sports Celebrity Image:- (DownloadImageSportsCelebrity.py and sportsCelebrityImages.py)
--There are two files for this program. DownloadImageSportsCelebrity.py imports the second file sportsCelebrityImages.py and then passes the required arguments to the functions of second file for the desired results.
--First, the porgram opens google's images section to scrap links of images and store them
--Then, it downloads the contents from the links to form the Images
--At last all the images are stored at a particular folder specified by the folder's path
+- There are two files for this program. DownloadImageSportsCelebrity.py imports the second file sportsCelebrityImages.py and then passes the required arguments to the functions of second file for the desired results.
+- First, the porgram opens google's images section to scrap links of images and store them
+- Then, it downloads the contents from the links to form the Images
+- At last all the images are stored at a particular folder specified by the folder's path
