@@ -1,6 +1,6 @@
 
 
-# There are four files as of now:-
+# There are six files as of now:-
 ## 1. Signing in to ieeexplore account using selenium(ieeexplore_signin.py)
 - In this program selenium is used to open Firefox browser and then go to ieeexplore page and sign in using username and password
 - You will require 'geckodriver.exe' to open Firefox
@@ -18,4 +18,10 @@
 ## 4. Scraping top 250 movies from IMDB website:-
 - The program opens top 250 movies chart webpage of IMDB and scraps the name, year and links for each movie
 - After scraping all the links the program opens all the links one by one to scrap a brief summary about the movie
-- This process is repeated until all 250 movies are scraped and the final details are zipped and stored into a list 
+- This process is repeated until all 250 movies are scraped and the final details are zipped and stored into a list
+
+##5. Download Sports Celebrity Image:- (DownloadImageSportsCelebrity.py and sportsCelebrityImages.py)
+-There are two files for this program. DownloadImageSportsCelebrity.py imports the second file sportsCelebrityImages.py and then passes the required arguments to the functions of second file for the desired results.
+-First, the porgram opens google's images section to scrap links of images and store them
+-Then, it downloads the contents from the links to form the Images
+-At last all the images are stored at a particular folder specified by the folder's path
